@@ -1,0 +1,49 @@
+ libglib            pkgs/main/win-64::libglib-2.84.2-h405b238_0
+  liblzma            conda-forge/win-64::liblzma-5.8.1-h2466b09_2
+  liblzma-devel      conda-forge/win-64::liblzma-devel-5.8.1-h2466b09_2
+  pixman             conda-forge/win-64::pixman-0.46.4-h5112557_1
+  poppler            pkgs/main/win-64::poppler-24.09.0-h1538a65_3
+  poppler-data       conda-forge/noarch::poppler-data-0.4.12-hd8ed1ab_0
+  vcomp14            conda-forge/win-64::vcomp14-14.44.35208-h818238b_31
+  xz-tools           conda-forge/win-64::xz-tools-5.8.1-h2466b09_2
+
+The following packages will be UPDATED:
+
+  curl                                     8.9.1-h3f729d1_0 --> 8.15.0-hf943856_0
+  freetype                                2.12.1-ha860e81_0 --> 2.13.3-h0620614_0
+  giflib                 pkgs/main::giflib-5.2.1-h8cc25b3_3 --> conda-forge::giflib-5.2.2-h64bf75a_0
+  imagecodecs                     2023.1.23-py312hd5bf116_1 --> 2024.9.22-py312h8c33f1c_1
+  lcms2                                     2.12-h83e58a3_0 --> 2.16-h62be587_1
+  lerc                       pkgs/main::lerc-3.0-hd77b12b_0 --> conda-forge::lerc-4.0.0-h6470a55_1
+  libaec                 pkgs/main::libaec-1.0.4-h33f27b4_1 --> conda-forge::libaec-1.1.4-h20038f6_0
+  libavif                                 0.11.1-h2bbff1b_0 --> 1.1.1-h827c3e9_0
+  libcurl                                  8.9.1-h0416ee5_0 --> 8.15.0-h2300eb9_0
+  libdeflate          pkgs/main::libdeflate-1.17-h2bbff1b_1 --> conda-forge::libdeflate-1.22-h2466b09_0
+  libssh2                                 1.11.0-h291bd65_0 --> 1.11.1-h2addb87_0
+  libtiff                                  4.5.1-hd77b12b_0 --> 4.7.0-h404307b_0
+  openssl                                  3.4.1-ha4e3fda_0 --> 3.5.2-h725018a_0
+  vc14_runtime                      14.42.34433-h6356254_24 --> 14.44.35208-h818238b_31
+  vs2015_runtime                    14.42.34433-hfef2bbc_24 --> 14.44.35208-h38c0c73_31
+  xz                         pkgs/main::xz-5.4.6-h8cc25b3_1 --> conda-forge::xz-5.8.1-h208afaa_2
+
+The following packages will be SUPERSEDED by a higher-priority channel:
+
+  certifi            pkgs/main/win-64::certifi-2025.8.3-py~ --> conda-forge/noarch::certifi-2025.8.3-pyhd8ed1ab_0
+
+
+Proceed ([y]/n)? conda install poppler -c conda-forgey
+Invalid choice: conda install poppler -c conda-forgey
+Proceed ([y]/n)? y
+
+
+Downloading and Extracting Packages:
+                                                                                                                                                 
+Preparing transaction: done                                                                                                                      
+Verifying transaction: failed                                                                                                                    
+                                                                                                                                                 
+RemoveError: 'charset-normalizer' is a dependency of conda and cannot be removed from                                                            
+conda's operating environment.                                                                                                                   
+RemoveError: 'requests' is a dependency of conda and cannot be removed from                                                                      
+conda's operating environment.                                                                                                                   
+RemoveError: 'setuptools' is a dependency of conda and cannot be removed from                                                                    
+conda's operating environment.                                                                                                                   
