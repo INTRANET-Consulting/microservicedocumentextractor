@@ -9,6 +9,14 @@ This guide will help you set up the Document Content Extractor service on your l
 - Anaconda or Miniconda installed
 - Git installed
 
+**Note**: This project originally used `rye` for dependency management (you'll see `requirements.lock` and `requirements-dev.lock` files), but you don't need `rye` to run it. We'll use Anaconda/pip instead, which is more Windows-friendly.
+
+### About the .lock files
+- `requirements.lock` and `requirements-dev.lock` are `rye`-generated files with exact versions
+- These files are **not needed** for basic functionality - they're just for exact reproducibility
+- We'll install the core dependencies from `pyproject.toml` instead
+- You can safely ignore the `.lock` files
+
 ## Option 1: Using Anaconda (Recommended)
 
 Anaconda is **highly recommended** for this project because:
@@ -45,14 +53,21 @@ conda install -c conda-forge libmagic -y
 ### Step 4: Install Python Dependencies
 
 ```bash
-# Install core dependencies
-pip install fastapi uvicorn python-multipart pdfplumber python-dotenv pydantic pydantic-settings
+# Install core dependencies from pyproject.toml
+pip install fastapi>=0.104.1
+pip install uvicorn>=0.24.0
+pip install python-multipart>=0.0.6
+pip install pdfplumber>=0.10.3
+pip install python-dotenv>=1.0.0
+pip install pydantic>=2.5.2
+pip install pydantic-settings>=2.1.0
 
-# Install unstructured with basic features
+# Install unstructured (the main document processing library)
 pip install unstructured
 
-# Optional: Install additional unstructured features (large download)
-# pip install "unstructured[all-docs]"
+# For development/testing (optional)
+pip install pytest>=7.4.3
+pip install httpx>=0.25.2
 ```
 
 ### Step 5: Windows-Specific Setup
