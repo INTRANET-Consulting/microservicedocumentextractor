@@ -80,15 +80,21 @@ class DocumentProcessor:
                 for element in elements:
                     element_text = str(element).strip()
                     if element_text:  # Only include non-empty elements
+                        # Convert metadata to dictionary
+                        metadata_dict = {}
+                        if hasattr(element, 'metadata') and element.metadata:
+                            # Convert ElementMetadata to dict
+                            metadata_dict = element.metadata.to_dict() if hasattr(element.metadata, 'to_dict') else {}
+                        
                         element_data = {
                             "type": element.__class__.__name__,
                             "text": element_text,
-                            "metadata": getattr(element, 'metadata', {})
+                            "metadata": metadata_dict
                         }
                         
                         # Add page number if available
-                        if hasattr(element, 'metadata') and element.metadata.get('page_number'):
-                            element_data["page_number"] = element.metadata.get('page_number')
+                        if metadata_dict.get('page_number'):
+                            element_data["page_number"] = metadata_dict.get('page_number')
                             
                         structured_elements.append(element_data)
                         total_text_length += len(element_text)
