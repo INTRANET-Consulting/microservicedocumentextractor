@@ -1,13 +1,13 @@
 import logging
 import os
-from typing import List, Tuple
+from typing import List, Tuple, Dict, Any
 from fastapi import UploadFile
 from unstructured.partition.auto import partition
 import magic
 import tempfile
 from contextlib import contextmanager
 import gc
-from .models import ProcessedFile
+from .models import ProcessedFile, DocumentElement
 from .settings import get_settings
 
 # Configure logging
@@ -56,20 +56,45 @@ class DocumentProcessor:
             await file.seek(0)
 
     @staticmethod
-    async def extract_text(file: UploadFile, mime_type: str) -> str:
-        """Extract text content from file using unstructured"""
+    async def extract_text(file: UploadFile, mime_type: str) -> Tuple[List[Dict], int]:
+        """Extract structured elements from file using unstructured"""
         content = await file.read()
         
         try:
-            with temporary_file(suffix=os.path.splitext(file.filename)[1]) as temp_file:
+            file_ext = os.path.splitext(file.filename or "unknown.txt")[1]
+            with temporary_file(suffix=file_ext) as temp_file:
                 temp_file.write(content)
                 temp_file.flush()
                 
-                elements = partition(filename=temp_file.name)
-                text_content = "\n".join([str(element) for element in elements])
+                # Use hi_res mode with table structure detection
+                elements = partition(
+                    filename=temp_file.name, 
+                    strategy="hi_res",
+                    infer_table_structure=True  # Preserves table formatting
+                )
                 
-                logger.info(f"Extracted {len(text_content)} characters from {file.filename}")
-                return text_content
+                # Convert to structured format
+                structured_elements = []
+                total_text_length = 0
+
+                for element in elements:
+                    element_text = str(element).strip()
+                    if element_text:  # Only include non-empty elements
+                        element_data = {
+                            "type": element.__class__.__name__,
+                            "text": element_text,
+                            "metadata": getattr(element, 'metadata', {})
+                        }
+                        
+                        # Add page number if available
+                        if hasattr(element, 'metadata') and element.metadata.get('page_number'):
+                            element_data["page_number"] = element.metadata.get('page_number')
+                            
+                        structured_elements.append(element_data)
+                        total_text_length += len(element_text)
+
+                logger.info(f"Extracted {len(structured_elements)} elements, total content length: {total_text_length}")
+                return structured_elements, total_text_length
                 
         finally:
             del content
@@ -77,53 +102,71 @@ class DocumentProcessor:
             await file.seek(0)
 
     @staticmethod
-    async def process_single_file(file: UploadFile) -> Tuple[str, ProcessedFile]:
+    async def process_single_file(file: UploadFile) -> Tuple[List[Dict], ProcessedFile]:
         """Process a single file with proper resource cleanup"""
         logger.info(f"Processing file: {file.filename}")
         
         try:
             mime_type, _ = await DocumentProcessor.validate_file(file)
-            text_content = await DocumentProcessor.extract_text(file, mime_type)
+            structured_elements, text_length = await DocumentProcessor.extract_text(file, mime_type)
             
             processed_file = ProcessedFile(
-                filename=file.filename,
+                filename=file.filename or "unknown",
                 file_type=mime_type,
-                status="success"
+                status="success",
+                element_count=len(structured_elements),
+                total_text_length=text_length
             )
             
-            return text_content, processed_file
+            return structured_elements, processed_file
             
         except Exception as e:
             logger.error(f"Failed to process {file.filename}: {str(e)}")
             processed_file = ProcessedFile(
-                filename=file.filename,
+                filename=file.filename or "unknown",
                 file_type=getattr(file, 'content_type', 'unknown'),
                 status="error",
-                error=str(e)
+                error=str(e),
+                element_count=0,
+                total_text_length=0
             )
-            return "", processed_file
+            return [], processed_file
         finally:
             gc.collect()
 
     @staticmethod 
-    async def process_files(files: List[UploadFile]) -> Tuple[str, List[ProcessedFile]]:
-        """Process multiple files with memory management"""
+    async def process_files(files: List[UploadFile]) -> Tuple[List[Dict], List[ProcessedFile], Dict[str, Any]]:
+        """Process multiple files with memory management and return structured data"""
         logger.info(f"Processing {len(files)} files")
         
-        processed_contents = []
+        all_elements = []
         processing_info = []
         
         try:
             for file in files:
-                content, info = await DocumentProcessor.process_single_file(file)
-                if content:
-                    processed_contents.append(content)
+                elements, info = await DocumentProcessor.process_single_file(file)
+                if elements:
+                    all_elements.extend(elements)
                 processing_info.append(info)
             
-            combined_content = "\n\n".join(processed_contents)
-            logger.info(f"Processed {len(files)} files, total content length: {len(combined_content)}")
+            # Create summary
+            element_types = {}
+            total_text_length = 0
+            for element in all_elements:
+                element_type = element["type"]
+                element_types[element_type] = element_types.get(element_type, 0) + 1
+                total_text_length += len(element["text"])
+
+            summary = {
+                "total_elements": len(all_elements),
+                "total_text_length": total_text_length,
+                "element_types": element_types,
+                "files_processed": len(files)
+            }
             
-            return combined_content, processing_info
+            logger.info(f"Processed {len(files)} files, total elements: {len(all_elements)}")
+            
+            return all_elements, processing_info, summary
         finally:
             # Clean up after processing
             for file in files:

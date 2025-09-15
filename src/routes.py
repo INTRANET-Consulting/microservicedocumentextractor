@@ -2,7 +2,7 @@ from fastapi import APIRouter, UploadFile, File, HTTPException
 from typing import List
 import logging
 from .processor import DocumentProcessor
-from .models import ProcessingResponse
+from .models import ProcessingResponse, DocumentElement
 
 # Configure logging
 logging.basicConfig(level=logging.INFO)
@@ -44,11 +44,22 @@ async def process_documents(
                 detail="No files provided"
             )
         
-        content, processing_info = await DocumentProcessor.process_files(files)
+        elements_data, processing_info, summary = await DocumentProcessor.process_files(files)
+        
+        # Convert Dict objects to DocumentElement objects
+        elements = [
+            DocumentElement(
+                type=elem["type"],
+                text=elem["text"],
+                metadata=elem.get("metadata", {}),
+                page_number=elem.get("page_number")
+            ) for elem in elements_data
+        ]
         
         return ProcessingResponse(
-            content=content,
-            processing_info=processing_info
+            elements=elements,
+            processing_info=processing_info,
+            summary=summary
         )
         
     except Exception as e:
