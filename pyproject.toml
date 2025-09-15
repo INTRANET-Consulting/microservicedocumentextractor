@@ -9,10 +9,11 @@ dependencies = [
     "uvicorn>=0.24.0",
     "python-multipart>=0.0.6",
     
-    # Document processing
+    # Document processing  
     "unstructured[all-docs]",
     "pdfplumber>=0.10.3",  # Override old dependency
     "python-magic>=0.4.27",
+    "numpy==1.24.3",  # Pin compatible version for unstructured
     
     # Utilities
     "python-dotenv>=1.0.0",
