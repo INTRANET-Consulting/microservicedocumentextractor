@@ -1,0 +1,47 @@
+[project]
+name = "document-content-extractor"
+version = "0.1.0"
+description = "Microservice for extracting content from documents using unstructured"
+authors = []
+dependencies = [
+    # Web framework
+    "fastapi>=0.104.1",
+    "uvicorn>=0.24.0",
+    "python-multipart>=0.0.6",
+    
+    # Document processing
+    "unstructured[all-docs]",
+    "pdfplumber>=0.10.3",  # Override old dependency
+    "python-magic>=0.4.27",
+    
+    # Utilities
+    "python-dotenv>=1.0.0",
+    "pydantic>=2.5.2",
+    "pydantic-settings>=2.1.0",
+]
+# readme = "README.md"  # Commented out until README is created
+requires-python = ">= 3.11"
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[tool.rye]
+managed = true
+dev-dependencies = [
+    "pytest>=7.4.3",
+    "httpx>=0.25.2",
+]
+
+[tool.rye.scripts]
+dev = "uvicorn src.main:app --host 0.0.0.0 --port 8002"
+start = "uvicorn src.main:app --host 0.0.0.0 --port 8002"
+test = "pytest tests/"
+
+[tool.hatch.build.targets.wheel]
+packages = ["src"]
+
+[[tool.rye.sources]]
+name = "pytorch"
+url = "https://download.pytorch.org/whl/cpu"
+type = "index"
