@@ -3,7 +3,7 @@ from functools import lru_cache
 
 class Settings(BaseSettings):
     # Server settings
-    port: int = 8002
+    port: int = 5000
     
     # Processing settings
     max_file_size: int = 10 * 1024 * 1024  # 10MB

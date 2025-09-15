@@ -34,8 +34,8 @@ dev-dependencies = [
 ]
 
 [tool.rye.scripts]
-dev = "uvicorn src.main:app --host 0.0.0.0 --port 8002"
-start = "uvicorn src.main:app --host 0.0.0.0 --port 8002"
+dev = "uvicorn src.main:app --host 0.0.0.0 --port 5000"
+start = "uvicorn src.main:app --host 0.0.0.0 --port 5000"
 test = "pytest tests/"
 
 [tool.hatch.build.targets.wheel]
