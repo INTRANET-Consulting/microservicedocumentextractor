@@ -3,7 +3,7 @@ import os
 from typing import List, Tuple, Dict, Any
 from fastapi import UploadFile
 from unstructured.partition.auto import partition
-import magic
+import mimetypes
 import tempfile
 from contextlib import contextmanager
 import gc
@@ -45,7 +45,24 @@ class DocumentProcessor:
             if file_size > settings.max_file_size:
                 raise ValueError(f"File size exceeds limit of {settings.max_file_size} bytes")
 
-            mime_type = magic.Magic(mime=True).from_buffer(content)
+            # Use built-in mimetypes (cross-platform, no external dependencies)
+            mime_type, _ = mimetypes.guess_type(file.filename or "")
+            if not mime_type:
+                # Fallback MIME type detection based on file extension
+                ext = os.path.splitext(file.filename or "")[1].lower()
+                mime_type = {
+                    '.pdf': 'application/pdf',
+                    '.docx': 'application/vnd.openxmlformats-officedocument.wordprocessingml.document',
+                    '.doc': 'application/msword',
+                    '.txt': 'text/plain',
+                    '.rtf': 'application/rtf',
+                    '.odt': 'application/vnd.oasis.opendocument.text',
+                    '.xlsx': 'application/vnd.openxmlformats-officedocument.spreadsheetml.sheet',
+                    '.xls': 'application/vnd.ms-excel',
+                    '.pptx': 'application/vnd.openxmlformats-officedocument.presentationml.presentation',
+                    '.ppt': 'application/vnd.ms-powerpoint'
+                }.get(ext, 'application/octet-stream')
+            
             logger.info(f"Detected MIME type: {mime_type}")
             
             return mime_type, file_size
