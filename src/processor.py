@@ -66,12 +66,28 @@ class DocumentProcessor:
                 temp_file.write(content)
                 temp_file.flush()
                 
-                # Use hi_res mode with table structure detection
-                elements = partition(
-                    filename=temp_file.name, 
-                    strategy="hi_res",
-                    infer_table_structure=True  # Preserves table formatting
-                )
+                # Get processing settings
+                settings = get_settings()
+                
+                # Configure partition based on strategy
+                if settings.processing_strategy == "hi_res":
+                    elements = partition(
+                        filename=temp_file.name,
+                        strategy="hi_res",
+                        infer_table_structure=settings.infer_table_structure
+                    )
+                elif settings.processing_strategy == "ocr_only":
+                    elements = partition(
+                        filename=temp_file.name,
+                        strategy="ocr_only"
+                    )
+                elif settings.processing_strategy == "auto":
+                    elements = partition(
+                        filename=temp_file.name,
+                        strategy="auto"
+                    )
+                else:  # "fast" strategy (default)
+                    elements = partition(filename=temp_file.name)
                 
                 # Convert to structured format
                 structured_elements = []
