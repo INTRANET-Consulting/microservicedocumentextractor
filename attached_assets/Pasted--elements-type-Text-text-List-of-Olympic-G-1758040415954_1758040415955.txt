@@ -1,0 +1,675 @@
+{
+    "elements": [
+        {
+            "type": "Text",
+            "text": "List of Olympic Games host cities",
+            "metadata": {
+                "category_depth": 0,
+                "file_directory": "C:\\Users\\gtgag\\AppData\\Local\\Temp",
+                "filename": "tmp74h7eq4p.docx",
+                "page_number": 1,
+                "languages": [
+                    "eng"
+                ],
+                "filetype": "application/vnd.openxmlformats-officedocument.wordprocessingml.document"
+            },
+            "page_number": 1
+        },
+        {
+            "type": "Title",
+            "text": "Olympic Games host cities",
+            "metadata": {
+                "category_depth": 0,
+                "file_directory": "C:\\Users\\gtgag\\AppData\\Local\\Temp",
+                "filename": "tmp74h7eq4p.docx",
+                "page_number": 1,
+                "languages": [
+                    "eng"
+                ],
+                "filetype": "application/vnd.openxmlformats-officedocument.wordprocessingml.document"
+            },
+            "page_number": 1
+        },
+        {
+            "type": "Text",
+            "text": "Host cities for Summer and Winter Olympic Games",
+            "metadata": {
+                "category_depth": 0,
+                "emphasized_text_contents": [
+                    "Host cities for Summer and Winter Olympic Games"
+                ],
+                "emphasized_text_tags": [
+                    "b"
+                ],
+                "file_directory": "C:\\Users\\gtgag\\AppData\\Local\\Temp",
+                "filename": "tmp74h7eq4p.docx",
+                "page_number": 1,
+                "languages": [
+                    "eng"
+                ],
+                "filetype": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+                "parent_id": "5192dc486a7a66c10cc706f0954d2f57"
+            },
+            "page_number": 1
+        },
+        {
+            "type": "Text",
+            "text": "Key",
+            "metadata": {
+                "category_depth": 0,
+                "emphasized_text_contents": [
+                    "Key"
+                ],
+                "emphasized_text_tags": [
+                    "b"
+                ],
+                "file_directory": "C:\\Users\\gtgag\\AppData\\Local\\Temp",
+                "filename": "tmp74h7eq4p.docx",
+                "page_number": 1,
+                "languages": [
+                    "eng"
+                ],
+                "filetype": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+                "parent_id": "5192dc486a7a66c10cc706f0954d2f57"
+            },
+            "page_number": 1
+        },
+        {
+            "type": "Table",
+            "text": "† §",
+            "metadata": {
+                "file_directory": "C:\\Users\\gtgag\\AppData\\Local\\Temp",
+                "filename": "tmp74h7eq4p.docx",
+                "page_number": 1,
+                "text_as_html": "<table><tr><td>†</td></tr><tr><td>§</td></tr></table>",
+                "languages": [
+                    "eng"
+                ],
+                "filetype": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+                "parent_id": "5192dc486a7a66c10cc706f0954d2f57"
+            },
+            "page_number": 1
+        },
+        {
+            "type": "Text",
+            "text": "Cancelled",
+            "metadata": {
+                "category_depth": 0,
+                "file_directory": "C:\\Users\\gtgag\\AppData\\Local\\Temp",
+                "filename": "tmp74h7eq4p.docx",
+                "page_number": 1,
+                "languages": [
+                    "eng"
+                ],
+                "filetype": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+                "parent_id": "5192dc486a7a66c10cc706f0954d2f57"
+            },
+            "page_number": 1
+        },
+        {
+            "type": "Text",
+            "text": "Postponed",
+            "metadata": {
+                "category_depth": 0,
+                "file_directory": "C:\\Users\\gtgag\\AppData\\Local\\Temp",
+                "filename": "tmp74h7eq4p.docx",
+                "page_number": 1,
+                "languages": [
+                    "eng"
+                ],
+                "filetype": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+                "parent_id": "5192dc486a7a66c10cc706f0954d2f57"
+            },
+            "page_number": 1
+        },
+        {
+            "type": "Table",
+            "text": "City Country Year Region Summer Winter Opening ceremony Closing ceremony Ref. Athens Greece 1896 Europe I 6 April 1896 15 April 1896 Paris France 1900 II 14 May 1900 28 October 1900 St. Louis[a] United States 1904 North America III 1 July 1904 23 November 1904 London[b] United Kingdom 1908 Europe IV 27 April 1908 31 October 1908 Stockholm Sweden 1912 V 6 July 1912 22 July 1912 † Berlin Germany 1916 VI Cancelled due to WWI [11] Antwerp[c] Belgium 1920 VII 14 August 1920 12 September 1920 [12] Chamonix France 1924 I 25 January 1924 5 February 1924 [13] Paris VIII 5 July 1924 27 July 1924 [14] St. Moritz Switzerland 1928 II 11 February 1928 19 February 1928 [15] Amsterdam Netherlands IX 28 July 1928 12 August 1928 [16] Lake Placid United States 1932 North America III 4 February 1932 13 February 1932 [17] Los Angeles X 30 July 1932 14 August 1932 [18] Garmisch- Partenkirchen Germany 1936 Europe IV 6 February 1936 16 February 1936 [19] Berlin XI 1 August 1936 16 August 1936 [20] † Sapporo Garmisch- Partenkirchen[d] Japan Germany 1940 Asia Europe V † Tokyo Helsinki[e] Japan  Finland XII Cancelled due to WWII [11] † Cortina d'Ampezzo Italy 1944 Europe V † London United Kingdom XIII St. Moritz Switzerland 1948 V 30 January 1948 8 February 1948 London United Kingdom XIV 29 July 1948 14 August 1948 Oslo Norway 1952 VI 14 February 1952 25 February 1952 Helsinki Finland XV 19 July 1952 3 August 1952 Cortina d'Ampezzo Italy 1956 VII 26 January 1956 5 February 1956 Melbourne Stockholm[f] Australia Sweden Oceania Europe XVI 10 June 1956 22 November 1956 17 June 1956 8 December 1956 [22] Squaw Valley United States 1960 North America VIII 18 February 1960 28 February 1960 Rome Italy Europe XVII 27 August 1960 11 September 1960 Innsbruck Austria 1964 IX 29 January 1964 9 February 1964 Tokyo Japan Asia XVIII 10 October 1964 24 October 1964 Grenoble France 1968 Europe X 6 February 1968 18 February 1968",
+            "metadata": {
+                "emphasized_text_contents": [
+                    "City",
+                    "City",
+                    "Country",
+                    "Year",
+                    "Region",
+                    "Summer",
+                    "Winter",
+                    "Opening ceremony",
+                    "Closing ceremony",
+                    "Ref.",
+                    "Cancelled due to",
+                    "Cancelled due to",
+                    "Cancelled due to",
+                    "Cancelled due to",
+                    "Cancelled due to",
+                    "Cancelled due to",
+                    "Cancelled due to",
+                    "Cancelled due to"
+                ],
+                "emphasized_text_tags": [
+                    "b",
+                    "b",
+                    "b",
+                    "b",
+                    "b",
+                    "b",
+                    "b",
+                    "b",
+                    "b",
+                    "b",
+                    "i",
+                    "i",
+                    "i",
+                    "i",
+                    "i",
+                    "i",
+                    "i",
+                    "i"
+                ],
+                "file_directory": "C:\\Users\\gtgag\\AppData\\Local\\Temp",
+                "filename": "tmp74h7eq4p.docx",
+                "page_number": 1,
+                "text_as_html": "<table><tr><td>City</td><td>City</td><td>Country</td><td>Year</td><td>Region</td><td>Summer</td><td>Winter</td><td>Opening ceremony</td><td>Closing ceremony</td><td>Ref.</td></tr><tr><td/><td>Athens</td><td>Greece</td><td>1896</td><td>Europe</td><td>I</td><td/><td>6 April 1896</td><td>15 April 1896</td><td/></tr><tr><td/><td/><td/><td/><td>Europe</td><td/><td/><td/><td/><td/></tr><tr><td/><td>Paris</td><td>France</td><td>1900</td><td/><td>II</td><td/><td>14 May 1900</td><td>28 October 1900</td><td/></tr><tr><td/><td>St. Louis[a]</td><td>United States</td><td>1904</td><td>North America</td><td>III</td><td/><td>1 July 1904</td><td>23 November 1904</td><td/></tr><tr><td/><td>London[b]</td><td>United Kingdom</td><td>1908</td><td>Europe</td><td>IV</td><td/><td>27 April 1908</td><td>31 October 1908</td><td/></tr><tr><td/><td>Stockholm</td><td>Sweden</td><td>1912</td><td>Europe</td><td>V</td><td/><td>6 July 1912</td><td>22 July 1912</td><td/></tr><tr><td>†</td><td>Berlin</td><td>Germany</td><td>1916</td><td>Europe</td><td>VI</td><td/><td>Cancelled due to WWI</td><td>Cancelled due to WWI</td><td>[11]</td></tr><tr><td/><td>Antwerp[c]</td><td>Belgium</td><td>1920</td><td>Europe</td><td>VII</td><td/><td>14 August 1920</td><td>12 September 1920</td><td>[12]</td></tr><tr><td/><td>Chamonix</td><td>France</td><td>1924</td><td>Europe</td><td/><td>I</td><td>25 January 1924</td><td>5 February 1924</td><td>[13]</td></tr><tr><td/><td/><td>France</td><td>1924</td><td>Europe</td><td/><td/><td/><td/><td/></tr><tr><td/><td>Paris</td><td/><td/><td/><td>VIII</td><td/><td>5 July 1924</td><td>27 July 1924</td><td>[14]</td></tr><tr><td/><td>St. Moritz</td><td>Switzerland</td><td>1928</td><td/><td/><td>II</td><td>11 February 1928</td><td>19 February 1928</td><td>[15]</td></tr><tr><td/><td/><td/><td>1928</td><td/><td/><td/><td/><td/><td/></tr><tr><td/><td>Amsterdam</td><td>Netherlands</td><td/><td/><td>IX</td><td/><td>28 July 1928</td><td>12 August 1928</td><td>[16]</td></tr><tr><td/><td>Lake Placid</td><td>United States</td><td>1932</td><td>North America</td><td/><td>III</td><td>4 February 1932</td><td>13 February 1932</td><td>[17]</td></tr><tr><td/><td>Los Angeles</td><td>United States</td><td>1932</td><td>North America</td><td>X</td><td/><td>30 July 1932</td><td>14 August 1932</td><td>[18]</td></tr><tr><td/><td>Garmisch- Partenkirchen</td><td>Germany</td><td>1936</td><td>Europe</td><td/><td>IV</td><td>6 February 1936</td><td>16 February 1936</td><td>[19]</td></tr><tr><td/><td/><td>Germany</td><td>1936</td><td>Europe</td><td/><td/><td/><td/><td/></tr><tr><td/><td>Berlin</td><td/><td/><td/><td>XI</td><td/><td>1 August 1936</td><td>16 August 1936</td><td>[20]</td></tr><tr><td>†</td><td>Sapporo Garmisch- Partenkirchen[d]</td><td>Japan Germany</td><td>1940</td><td>Asia Europe</td><td/><td>V</td><td/><td/><td/></tr><tr><td/><td/><td/><td>1940</td><td>Asia Europe</td><td/><td/><td/><td/><td/></tr><tr><td>†</td><td>Tokyo Helsinki[e]</td><td>Japan Finland</td><td/><td/><td>XII</td><td/><td>Cancelled due to WWII</td><td>Cancelled due to WWII</td><td>[11]</td></tr><tr><td>†</td><td>Cortina d&#x27;Ampezzo</td><td>Italy</td><td>1944</td><td>Europe</td><td/><td>V</td><td>Cancelled due to WWII</td><td>Cancelled due to WWII</td><td>[11]</td></tr><tr><td>†</td><td>London</td><td>United Kingdom</td><td>1944</td><td>Europe</td><td>XIII</td><td/><td>Cancelled due to WWII</td><td>Cancelled due to WWII</td><td>[11]</td></tr><tr><td/><td>St. Moritz</td><td>Switzerland</td><td>1948</td><td>Europe</td><td/><td>V</td><td>30 January 1948</td><td>8 February 1948</td><td/></tr><tr><td/><td>London</td><td>United Kingdom</td><td>1948</td><td>Europe</td><td>XIV</td><td/><td>29 July 1948</td><td>14 August 1948</td><td/></tr><tr><td/><td>Oslo</td><td>Norway</td><td>1952</td><td>Europe</td><td/><td>VI</td><td>14 February 1952</td><td>25 February 1952</td><td/></tr><tr><td/><td/><td/><td>1952</td><td>Europe</td><td/><td/><td/><td/><td/></tr><tr><td/><td>Helsinki</td><td>Finland</td><td/><td/><td>XV</td><td/><td>19 July 1952</td><td>3 August 1952</td><td/></tr><tr><td/><td>Cortina d&#x27;Ampezzo</td><td>Italy</td><td>1956</td><td/><td/><td>VII</td><td>26 January 1956</td><td>5 February 1956</td><td/></tr><tr><td/><td/><td/><td>1956</td><td/><td/><td/><td/><td/><td/></tr><tr><td/><td>Melbourne Stockholm[f]</td><td>Australia Sweden</td><td/><td>Oceania Europe</td><td>XVI</td><td/><td>10 June 1956 22 November 1956</td><td>17 June 1956 8 December 1956</td><td>[22]</td></tr><tr><td/><td>Squaw Valley</td><td>United States</td><td>1960</td><td>North America</td><td/><td>VIII</td><td>18 February 1960</td><td>28 February 1960</td><td/></tr><tr><td/><td>Rome</td><td>Italy</td><td>1960</td><td>Europe</td><td>XVII</td><td/><td>27 August 1960</td><td>11 September 1960</td><td/></tr><tr><td/><td/><td/><td/><td>Europe</td><td/><td/><td/><td/><td/></tr><tr><td/><td>Innsbruck</td><td>Austria</td><td>1964</td><td/><td/><td>IX</td><td>29 January 1964</td><td>9 February 1964</td><td/></tr><tr><td/><td/><td/><td>1964</td><td/><td/><td/><td/><td/><td/></tr><tr><td/><td>Tokyo</td><td>Japan</td><td/><td>Asia</td><td>XVIII</td><td/><td>10 October 1964</td><td>24 October 1964</td><td/></tr><tr><td/><td>Grenoble</td><td>France</td><td>1968</td><td>Europe</td><td/><td>X</td><td>6 February 1968</td><td>18 February 1968</td><td/></tr></table>",
+                "languages": [
+                    "eng"
+                ],
+                "filetype": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+                "parent_id": "5192dc486a7a66c10cc706f0954d2f57"
+            },
+            "page_number": 1
+        },
+        {
+            "type": "Table",
+            "text": "Mexico City Mexico North America XIX 12 October 1968 27 October 1968 Sapporo Japan 1972 Asia XI 3 February 1972 13 February 1972 Munich West Germany Europe XX 26 August 1972 11 September 1972 Innsbruck[g] Austria 1976 XII 4 February 1976 15 February 1976 Montreal Canada North America XXI 17 July 1976 1 August 1976 Lake Placid United States 1980 XIII 13 February 1980 24 February 1980 Moscow Soviet Union[h] Europe XXII 19 July 1980 3 August 1980 Sarajevo Yugoslavia[i] 1984 XIV 8 February 1984 19 February 1984 Los Angeles United States North America XXIII 28 July 1984 12 August 1984 Calgary Canada 1988 XV 13 February 1988 28 February 1988 Seoul South Korea Asia XXIV 17 September 1988 2 October 1988 Albertville France 1992 Europe XVI 8 February 1992 23 February 1992 Barcelona Spain XXV 25 July 1992 9 August 1992 Lillehammer Norway 1994 XVII 12 February 1994 27 February 1994 Atlanta United States 1996 North America XXVI 19 July 1996 4 August 1996 Nagano Japan 1998 Asia XVIII 7 February 1998 22 February 1998 Sydney Australia 2000 Oceania XXVII 15 September 2000 1 October 2000 Salt Lake City United States 2002 North America XIX 8 February 2002 24 February 2002 Athens Greece 2004 Europe XXVIII 13 August 2004 29 August 2004 Turin Italy 2006 XX 10 February 2006 26 February 2006 Beijing[j] China 2008 Asia XXIX 8 August 2008 24 August 2008 [24] Vancouver Canada 2010 North America XXI 12 February 2010 28 February 2010 London United Kingdom 2012 Europe XXX 27 July 2012 12 August 2012 Sochi Russia[h] 2014 XXII 7 February 2014 23 February 2014 Rio de Janeiro Brazil 2016 South America XXXI 5 August 2016 21 August 2016 Pyeongchang South Korea 2018 Asia XXIII 9 February 2018 25 February 2018 § Tokyo Japan 2020 XXXII 23 July 2021[k] 8 August 2021[k] Beijing China 2022 XXIV 4 February 2022 20 February 2022 Paris[l] France 2024 Europe XXXIII 26 July 2024 11 August 2024 Milan and Cortina d'Ampezzo Italy 2026 XXV 6 February 2026 22 February 2026 Los Angeles United States 2028 North America XXXIV 14 July 2028 30 July 2028 French Alps[m] Turin[n] France Italy 2030 Europe XXVI 8 February 2030 24 February 2030 Brisbane Australia 2032 Oceania XXXV 23 July 2032 8 August 2032 Salt Lake City[o] United States 2034 North America XXVII 10 February 2034 26 February 2034",
+            "metadata": {
+                "file_directory": "C:\\Users\\gtgag\\AppData\\Local\\Temp",
+                "filename": "tmp74h7eq4p.docx",
+                "page_number": 1,
+                "text_as_html": "<table><tr><td/><td>Mexico City</td><td>Mexico</td><td/><td>North America</td><td>XIX</td><td/><td>12 October 1968</td><td>27 October 1968</td><td/></tr><tr><td/><td>Sapporo</td><td>Japan</td><td>1972</td><td>Asia</td><td/><td>XI</td><td>3 February 1972</td><td>13 February 1972</td><td/></tr><tr><td/><td>Munich</td><td>West Germany</td><td>1972</td><td>Europe</td><td>XX</td><td/><td>26 August 1972</td><td>11 September 1972</td><td/></tr><tr><td/><td>Innsbruck[g]</td><td>Austria</td><td>1976</td><td>Europe</td><td/><td>XII</td><td>4 February 1976</td><td>15 February 1976</td><td/></tr><tr><td/><td/><td/><td>1976</td><td/><td/><td/><td/><td/><td/></tr><tr><td/><td>Montreal</td><td>Canada</td><td/><td>North America</td><td>XXI</td><td/><td>17 July 1976</td><td>1 August 1976</td><td/></tr><tr><td/><td>Lake Placid</td><td>United States</td><td>1980</td><td>North America</td><td/><td>XIII</td><td>13 February 1980</td><td>24 February 1980</td><td/></tr><tr><td/><td/><td/><td>1980</td><td/><td/><td/><td/><td/><td/></tr><tr><td/><td>Moscow</td><td>Soviet Union[h]</td><td/><td>Europe</td><td>XXII</td><td/><td>19 July 1980</td><td>3 August 1980</td><td/></tr><tr><td/><td/><td/><td/><td>Europe</td><td/><td/><td/><td/><td/></tr><tr><td/><td>Sarajevo</td><td>Yugoslavia[i]</td><td>1984</td><td/><td/><td>XIV</td><td>8 February 1984</td><td>19 February 1984</td><td/></tr><tr><td/><td>Los Angeles</td><td>United States</td><td>1984</td><td>North America</td><td>XXIII</td><td/><td>28 July 1984</td><td>12 August 1984</td><td/></tr><tr><td/><td/><td/><td/><td>North America</td><td/><td/><td/><td/><td/></tr><tr><td/><td>Calgary</td><td>Canada</td><td>1988</td><td/><td/><td>XV</td><td>13 February 1988</td><td>28 February 1988</td><td/></tr><tr><td/><td>Seoul</td><td>South Korea</td><td>1988</td><td>Asia</td><td>XXIV</td><td/><td>17 September 1988</td><td>2 October 1988</td><td/></tr><tr><td/><td>Albertville</td><td>France</td><td>1992</td><td>Europe</td><td/><td>XVI</td><td>8 February 1992</td><td>23 February 1992</td><td/></tr><tr><td/><td>Barcelona</td><td>Spain</td><td>1992</td><td>Europe</td><td>XXV</td><td/><td>25 July 1992</td><td>9 August 1992</td><td/></tr><tr><td/><td>Lillehammer</td><td>Norway</td><td>1994</td><td>Europe</td><td/><td>XVII</td><td>12 February 1994</td><td>27 February 1994</td><td/></tr><tr><td/><td>Atlanta</td><td>United States</td><td>1996</td><td>North America</td><td>XXVI</td><td/><td>19 July 1996</td><td>4 August 1996</td><td/></tr><tr><td/><td>Nagano</td><td>Japan</td><td>1998</td><td>Asia</td><td/><td>XVIII</td><td>7 February 1998</td><td>22 February 1998</td><td/></tr><tr><td/><td>Sydney</td><td>Australia</td><td>2000</td><td>Oceania</td><td>XXVII</td><td/><td>15 September 2000</td><td>1 October 2000</td><td/></tr><tr><td/><td>Salt Lake City</td><td>United States</td><td>2002</td><td>North America</td><td/><td>XIX</td><td>8 February 2002</td><td>24 February 2002</td><td/></tr><tr><td/><td>Athens</td><td>Greece</td><td>2004</td><td>Europe</td><td>XXVIII</td><td/><td>13 August 2004</td><td>29 August 2004</td><td/></tr><tr><td/><td/><td/><td/><td>Europe</td><td/><td/><td/><td/><td/></tr><tr><td/><td>Turin</td><td>Italy</td><td>2006</td><td/><td/><td>XX</td><td>10 February 2006</td><td>26 February 2006</td><td/></tr><tr><td/><td>Beijing[j]</td><td>China</td><td>2008</td><td>Asia</td><td>XXIX</td><td/><td>8 August 2008</td><td>24 August 2008</td><td>[24]</td></tr><tr><td/><td>Vancouver</td><td>Canada</td><td>2010</td><td>North America</td><td/><td>XXI</td><td>12 February 2010</td><td>28 February 2010</td><td/></tr><tr><td/><td>London</td><td>United Kingdom</td><td>2012</td><td>Europe</td><td>XXX</td><td/><td>27 July 2012</td><td>12 August 2012</td><td/></tr><tr><td/><td/><td/><td/><td>Europe</td><td/><td/><td/><td/><td/></tr><tr><td/><td>Sochi</td><td>Russia[h]</td><td>2014</td><td/><td/><td>XXII</td><td>7 February 2014</td><td>23 February 2014</td><td/></tr><tr><td/><td>Rio de Janeiro</td><td>Brazil</td><td>2016</td><td>South America</td><td>XXXI</td><td/><td>5 August 2016</td><td>21 August 2016</td><td/></tr><tr><td/><td>Pyeongchang</td><td>South Korea</td><td>2018</td><td>Asia</td><td/><td>XXIII</td><td>9 February 2018</td><td>25 February 2018</td><td/></tr><tr><td>§</td><td>Tokyo</td><td>Japan</td><td>2020</td><td>Asia</td><td>XXXII</td><td/><td>23 July 2021[k]</td><td>8 August 2021[k]</td><td/></tr><tr><td/><td>Beijing</td><td>China</td><td>2022</td><td>Asia</td><td/><td>XXIV</td><td>4 February 2022</td><td>20 February 2022</td><td/></tr><tr><td/><td>Paris[l]</td><td>France</td><td>2024</td><td>Europe</td><td>XXXIII</td><td/><td>26 July 2024</td><td>11 August 2024</td><td/></tr><tr><td/><td>Milan and</td><td/><td/><td>Europe</td><td/><td/><td/><td/><td/></tr><tr><td/><td>Cortina d&#x27;Ampezzo</td><td>Italy</td><td>2026</td><td/><td/><td>XXV</td><td>6 February 2026</td><td>22 February 2026</td><td/></tr><tr><td/><td>Los Angeles</td><td>United States</td><td>2028</td><td>North America</td><td>XXXIV</td><td/><td>14 July 2028</td><td>30 July 2028</td><td/></tr><tr><td/><td>French Alps[m] Turin[n]</td><td>France Italy</td><td>2030</td><td>Europe</td><td/><td>XXVI</td><td>8 February 2030</td><td>24 February 2030</td><td/></tr><tr><td/><td>Brisbane</td><td>Australia</td><td>2032</td><td>Oceania</td><td>XXXV</td><td/><td>23 July 2032</td><td>8 August 2032</td><td/></tr><tr><td/><td>Salt Lake City[o]</td><td>United States</td><td>2034</td><td>North America</td><td/><td>XXVII</td><td>10 February 2034</td><td>26 February 2034</td><td/></tr></table>",
+                "languages": [
+                    "eng"
+                ],
+                "filetype": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+                "parent_id": "5192dc486a7a66c10cc706f0954d2f57"
+            },
+            "page_number": 1
+        },
+        {
+            "type": "NarrativeText",
+            "text": "The 1906 Intercalated Games are no longer officially recognized by the IOC as an official Olympic Games.",
+            "metadata": {
+                "category_depth": 0,
+                "file_directory": "C:\\Users\\gtgag\\AppData\\Local\\Temp",
+                "filename": "tmp74h7eq4p.docx",
+                "link_texts": [
+                    "1906 Intercalated Games",
+                    "IOC",
+                    " "
+                ],
+                "link_urls": [
+                    "https://en.wikipedia.org/wiki/1906_Intercalated_Games",
+                    "https://en.wikipedia.org/wiki/International_Olympic_Committee",
+                    "https://en.wikipedia.org/wiki/International_Olympic_Committee"
+                ],
+                "links": [
+                    {
+                        "text": "1906 Intercalated Games",
+                        "url": "https://en.wikipedia.org/wiki/1906_Intercalated_Games",
+                        "start_index": 5
+                    },
+                    {
+                        "text": "IOC",
+                        "url": "https://en.wikipedia.org/wiki/International_Olympic_Committee",
+                        "start_index": 72
+                    },
+                    {
+                        "text": " ",
+                        "url": "https://en.wikipedia.org/wiki/International_Olympic_Committee",
+                        "start_index": 75
+                    }
+                ],
+                "page_number": 1,
+                "languages": [
+                    "eng"
+                ],
+                "filetype": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+                "parent_id": "5192dc486a7a66c10cc706f0954d2f57"
+            },
+            "page_number": 1
+        },
+        {
+            "type": "NarrativeText",
+            "text": "The IOC has also entered \"privileged dialogue\" with Switzerland for the 2038 Winter Games.[28]",
+            "metadata": {
+                "category_depth": 0,
+                "file_directory": "C:\\Users\\gtgag\\AppData\\Local\\Temp",
+                "filename": "tmp74h7eq4p.docx",
+                "page_number": 1,
+                "languages": [
+                    "eng"
+                ],
+                "filetype": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+                "parent_id": "5192dc486a7a66c10cc706f0954d2f57"
+            },
+            "page_number": 1
+        },
+        {
+            "type": "Text",
+            "text": "Host cities for multiple Summer and Winter Olympic Games",
+            "metadata": {
+                "category_depth": 0,
+                "emphasized_text_contents": [
+                    "Host cities for multiple Summer and Winter Olympic Games"
+                ],
+                "emphasized_text_tags": [
+                    "b"
+                ],
+                "file_directory": "C:\\Users\\gtgag\\AppData\\Local\\Temp",
+                "filename": "tmp74h7eq4p.docx",
+                "page_number": 1,
+                "languages": [
+                    "eng"
+                ],
+                "filetype": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+                "parent_id": "5192dc486a7a66c10cc706f0954d2f57"
+            },
+            "page_number": 1
+        },
+        {
+            "type": "NarrativeText",
+            "text": "List of cities that hosted multiple editions of the Olympic Games",
+            "metadata": {
+                "category_depth": 0,
+                "file_directory": "C:\\Users\\gtgag\\AppData\\Local\\Temp",
+                "filename": "tmp74h7eq4p.docx",
+                "page_number": 1,
+                "languages": [
+                    "eng"
+                ],
+                "filetype": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+                "parent_id": "5192dc486a7a66c10cc706f0954d2f57"
+            },
+            "page_number": 1
+        },
+        {
+            "type": "Table",
+            "text": "Total City Country Region Summer Olympics Winter Olympics 3 London United Kingdom Europe 3 (1908, 1948, 2012) Los Angeles United States North America 3 (1932, 1984, 2028) Paris France Europe 3 (1900, 1924, 2024) 2 Albertville 2 (1992, 2030[29]) Athens Greece 2 (1896, 2004) Beijing China Asia 1 (2008) 1 (2022) Cortina d'Ampezzo Italy Europe 2 (1956, 2026) Turin 2 (2006, 2030[29]) Innsbruck Austria 2 (1964, 1976) Lake Placid United States North America 2 (1932, 1980) Salt Lake City 2 (2002, 2034) St. Moritz Switzerland Europe 2 (1928, 1948) Tokyo Japan Asia 2 (1964, 2020)",
+            "metadata": {
+                "emphasized_text_contents": [
+                    "Total",
+                    "City",
+                    "Country",
+                    "Region",
+                    "Summer Olympics",
+                    "Winter Olympics"
+                ],
+                "emphasized_text_tags": [
+                    "b",
+                    "b",
+                    "b",
+                    "b",
+                    "b",
+                    "b"
+                ],
+                "file_directory": "C:\\Users\\gtgag\\AppData\\Local\\Temp",
+                "filename": "tmp74h7eq4p.docx",
+                "page_number": 1,
+                "text_as_html": "<table><tr><td>Total</td><td>City</td><td>Country</td><td>Region</td><td>Summer Olympics</td><td>Winter Olympics</td></tr><tr><td>3</td><td>London</td><td>United Kingdom</td><td>Europe</td><td>3 (1908, 1948, 2012)</td><td/></tr><tr><td>3</td><td>Los Angeles</td><td>United States</td><td>North America</td><td>3 (1932, 1984, 2028)</td><td/></tr><tr><td>3</td><td>Paris</td><td>France</td><td>Europe</td><td>3 (1900, 1924, 2024)</td><td/></tr><tr><td>2</td><td>Albertville</td><td>France</td><td>Europe</td><td/><td>2 (1992, 2030[29])</td></tr><tr><td>2</td><td>Athens</td><td>Greece</td><td>Europe</td><td>2 (1896, 2004)</td><td/></tr><tr><td>2</td><td>Beijing</td><td>China</td><td>Asia</td><td>1 (2008)</td><td>1 (2022)</td></tr><tr><td>2</td><td>Cortina d&#x27;Ampezzo</td><td>Italy</td><td>Europe</td><td/><td>2 (1956, 2026)</td></tr><tr><td>2</td><td>Turin</td><td>Italy</td><td>Europe</td><td/><td>2 (2006, 2030[29])</td></tr><tr><td>2</td><td>Innsbruck</td><td>Austria</td><td>Europe</td><td/><td>2 (1964, 1976)</td></tr><tr><td>2</td><td>Lake Placid</td><td>United States</td><td>North America</td><td/><td>2 (1932, 1980)</td></tr><tr><td>2</td><td/><td>United States</td><td>North America</td><td/><td/></tr><tr><td/><td>Salt Lake City</td><td/><td/><td/><td>2 (2002, 2034)</td></tr><tr><td/><td>St. Moritz</td><td>Switzerland</td><td>Europe</td><td/><td>2 (1928, 1948)</td></tr><tr><td/><td>Tokyo</td><td>Japan</td><td>Asia</td><td>2 (1964, 2020)</td><td/></tr></table>",
+                "languages": [
+                    "eng"
+                ],
+                "filetype": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+                "parent_id": "5192dc486a7a66c10cc706f0954d2f57"
+            },
+            "page_number": 1
+        },
+        {
+            "type": "NarrativeText",
+            "text": "Italics denote future events",
+            "metadata": {
+                "category_depth": 0,
+                "emphasized_text_contents": [
+                    "Italics"
+                ],
+                "emphasized_text_tags": [
+                    "i"
+                ],
+                "file_directory": "C:\\Users\\gtgag\\AppData\\Local\\Temp",
+                "filename": "tmp74h7eq4p.docx",
+                "page_number": 1,
+                "languages": [
+                    "eng"
+                ],
+                "filetype": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+                "parent_id": "5192dc486a7a66c10cc706f0954d2f57"
+            },
+            "page_number": 1
+        },
+        {
+            "type": "Title",
+            "text": "Number of Olympic Games by country",
+            "metadata": {
+                "category_depth": 0,
+                "file_directory": "C:\\Users\\gtgag\\AppData\\Local\\Temp",
+                "filename": "tmp74h7eq4p.docx",
+                "page_number": 1,
+                "languages": [
+                    "eng"
+                ],
+                "filetype": "application/vnd.openxmlformats-officedocument.wordprocessingml.document"
+            },
+            "page_number": 1
+        },
+        {
+            "type": "Text",
+            "text": "7 times",
+            "metadata": {
+                "category_depth": 0,
+                "file_directory": "C:\\Users\\gtgag\\AppData\\Local\\Temp",
+                "filename": "tmp74h7eq4p.docx",
+                "page_number": 1,
+                "languages": [
+                    "eng"
+                ],
+                "filetype": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+                "parent_id": "039654855657658d9328ccfbd322c805"
+            },
+            "page_number": 1
+        },
+        {
+            "type": "Text",
+            "text": "4 times",
+            "metadata": {
+                "category_depth": 0,
+                "file_directory": "C:\\Users\\gtgag\\AppData\\Local\\Temp",
+                "filename": "tmp74h7eq4p.docx",
+                "page_number": 1,
+                "languages": [
+                    "eng"
+                ],
+                "filetype": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+                "parent_id": "039654855657658d9328ccfbd322c805"
+            },
+            "page_number": 1
+        },
+        {
+            "type": "Text",
+            "text": "3 times  Twice",
+            "metadata": {
+                "category_depth": 0,
+                "file_directory": "C:\\Users\\gtgag\\AppData\\Local\\Temp",
+                "filename": "tmp74h7eq4p.docx",
+                "page_number": 1,
+                "languages": [
+                    "eng"
+                ],
+                "filetype": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+                "parent_id": "039654855657658d9328ccfbd322c805"
+            },
+            "page_number": 1
+        },
+        {
+            "type": "Text",
+            "text": "Once",
+            "metadata": {
+                "category_depth": 0,
+                "file_directory": "C:\\Users\\gtgag\\AppData\\Local\\Temp",
+                "filename": "tmp74h7eq4p.docx",
+                "page_number": 1,
+                "languages": [
+                    "eng"
+                ],
+                "filetype": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+                "parent_id": "039654855657658d9328ccfbd322c805"
+            },
+            "page_number": 1
+        },
+        {
+            "type": "NarrativeText",
+            "text": "Never held games",
+            "metadata": {
+                "category_depth": 0,
+                "file_directory": "C:\\Users\\gtgag\\AppData\\Local\\Temp",
+                "filename": "tmp74h7eq4p.docx",
+                "page_number": 1,
+                "languages": [
+                    "eng"
+                ],
+                "filetype": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+                "parent_id": "039654855657658d9328ccfbd322c805"
+            },
+            "page_number": 1
+        },
+        {
+            "type": "NarrativeText",
+            "text": "List of countries ranked by the number of times they hosted or will host the Olympic Games",
+            "metadata": {
+                "category_depth": 0,
+                "file_directory": "C:\\Users\\gtgag\\AppData\\Local\\Temp",
+                "filename": "tmp74h7eq4p.docx",
+                "page_number": 1,
+                "languages": [
+                    "eng"
+                ],
+                "filetype": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+                "parent_id": "039654855657658d9328ccfbd322c805"
+            },
+            "page_number": 1
+        },
+        {
+            "type": "Table",
+            "text": "Total Country Region First Year Last Year Summer Olympics Winter Olympics 10 United States North America 1904 2034 5 (1904, 1932, 1984, 1996, 5 (1932, 1960, 1980, 2002, 7 France Europe 1900 2030 3 (1900, 1924, 2024) 4 (1924, 1968, 1992, 2030) 4 Italy 1956 2026 1 (1960) 3 (1944, 1956, 2006, 2026) Japan Asia 1964 2020 2 (1940, 1964, 2020) 2 (1940, 1972, 1998) 3 Australia Oceania 1956 2032 3 (1956, 2000, 2032) Canada North America 1976 2010 1 (1976) 2 (1988, 2010) Germany Europe 1936 1972 2 (1916, 1936, 1972) 1 (1936, 1940) United Kingdom 1908 2012 3 (1908, 1944, 1948, 2012) 2 Austria 1964 1976 2 (1964, 1976) China Asia 2008 2022 1 (2008) 1 (2022) Greece Europe 1896 2004 2 (1896, 2004) Norway 1952 1994 2 (1952, 1994) Russia[h] 1980 2014 1 (1980) 1 (2014) South Korea Asia 1988 2018 1 (1988) 1 (2018) Switzerland Europe 1928 1948 2 (1928, 1940, 1948) 1 Belgium 1920 1920 1 (1920) Bosnia and Herzegovina[i] 1984 1984 1 (1984) Brazil South America 2016 2016 1 (2016) Finland Europe 1952 1952 1 (1940, 1952) Mexico North America 1968 1968 1 (1968) Netherlands Europe 1928 1928 1 (1928) Spain 1992 1992 1 (1992) Sweden 1912 1912 1 (1912)",
+            "metadata": {
+                "emphasized_text_contents": [
+                    "Total",
+                    "Country",
+                    "Region",
+                    "First Year",
+                    "Last Year",
+                    "Summer Olympics",
+                    "Winter Olympics",
+                    "2034",
+                    "2030",
+                    "2026",
+                    "2032"
+                ],
+                "emphasized_text_tags": [
+                    "b",
+                    "b",
+                    "b",
+                    "b",
+                    "b",
+                    "b",
+                    "b",
+                    "i",
+                    "i",
+                    "i",
+                    "i"
+                ],
+                "file_directory": "C:\\Users\\gtgag\\AppData\\Local\\Temp",
+                "filename": "tmp74h7eq4p.docx",
+                "page_number": 1,
+                "text_as_html": "<table><tr><td>Total</td><td>Country</td><td>Region</td><td>First Year</td><td>Last Year</td><td>Summer Olympics</td><td>Winter Olympics</td></tr><tr><td>10</td><td>United States</td><td>North America</td><td>1904</td><td>2034</td><td>5 (1904, 1932, 1984, 1996,</td><td>5 (1932, 1960, 1980, 2002,</td></tr><tr><td>7</td><td>France</td><td>Europe</td><td>1900</td><td>2030</td><td>3 (1900, 1924, 2024)</td><td>4 (1924, 1968, 1992, 2030)</td></tr><tr><td/><td/><td>Europe</td><td/><td/><td/><td/></tr><tr><td>4</td><td>Italy</td><td/><td>1956</td><td>2026</td><td>1 (1960)</td><td>3 (1944, 1956, 2006, 2026)</td></tr><tr><td>4</td><td>Japan</td><td>Asia</td><td>1964</td><td>2020</td><td>2 (1940, 1964, 2020)</td><td>2 (1940, 1972, 1998)</td></tr><tr><td>3</td><td>Australia</td><td>Oceania</td><td>1956</td><td>2032</td><td>3 (1956, 2000, 2032)</td><td/></tr><tr><td>3</td><td>Canada</td><td>North America</td><td>1976</td><td>2010</td><td>1 (1976)</td><td>2 (1988, 2010)</td></tr><tr><td>3</td><td>Germany</td><td>Europe</td><td>1936</td><td>1972</td><td>2 (1916, 1936, 1972)</td><td>1 (1936, 1940)</td></tr><tr><td>3</td><td>United Kingdom</td><td>Europe</td><td>1908</td><td>2012</td><td>3 (1908, 1944, 1948, 2012)</td><td/></tr><tr><td>2</td><td>Austria</td><td>Europe</td><td>1964</td><td>1976</td><td/><td>2 (1964, 1976)</td></tr><tr><td>2</td><td>China</td><td>Asia</td><td>2008</td><td>2022</td><td>1 (2008)</td><td>1 (2022)</td></tr><tr><td>2</td><td>Greece</td><td>Europe</td><td>1896</td><td>2004</td><td>2 (1896, 2004)</td><td/></tr><tr><td>2</td><td>Norway</td><td>Europe</td><td>1952</td><td>1994</td><td/><td>2 (1952, 1994)</td></tr><tr><td>2</td><td>Russia[h]</td><td>Europe</td><td>1980</td><td>2014</td><td>1 (1980)</td><td>1 (2014)</td></tr><tr><td>2</td><td>South Korea</td><td>Asia</td><td>1988</td><td>2018</td><td>1 (1988)</td><td>1 (2018)</td></tr><tr><td>2</td><td>Switzerland</td><td>Europe</td><td>1928</td><td>1948</td><td/><td>2 (1928, 1940, 1948)</td></tr><tr><td>1</td><td>Belgium</td><td>Europe</td><td>1920</td><td>1920</td><td>1 (1920)</td><td/></tr><tr><td>1</td><td>Bosnia and Herzegovina[i]</td><td>Europe</td><td>1984</td><td>1984</td><td/><td>1 (1984)</td></tr><tr><td>1</td><td>Brazil</td><td>South America</td><td>2016</td><td>2016</td><td>1 (2016)</td><td/></tr><tr><td>1</td><td>Finland</td><td>Europe</td><td>1952</td><td>1952</td><td>1 (1940, 1952)</td><td/></tr><tr><td>1</td><td>Mexico</td><td>North America</td><td>1968</td><td>1968</td><td>1 (1968)</td><td/></tr><tr><td/><td>Netherlands</td><td>Europe</td><td>1928</td><td>1928</td><td>1 (1928)</td><td/></tr><tr><td/><td>Spain</td><td>Europe</td><td>1992</td><td>1992</td><td>1 (1992)</td><td/></tr><tr><td/><td>Sweden</td><td>Europe</td><td>1912</td><td>1912</td><td>1 (1912)</td><td/></tr></table>",
+                "languages": [
+                    "eng"
+                ],
+                "filetype": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+                "parent_id": "039654855657658d9328ccfbd322c805"
+            },
+            "page_number": 1
+        },
+        {
+            "type": "Title",
+            "text": "Number of Olympic Games by region",
+            "metadata": {
+                "category_depth": 0,
+                "file_directory": "C:\\Users\\gtgag\\AppData\\Local\\Temp",
+                "filename": "tmp74h7eq4p.docx",
+                "page_number": 1,
+                "languages": [
+                    "eng"
+                ],
+                "filetype": "application/vnd.openxmlformats-officedocument.wordprocessingml.document"
+            },
+            "page_number": 1
+        },
+        {
+            "type": "Table",
+            "text": "Total Region First year Last year Summer Olympics Winter Olympics 33 Europe 1896 2030 17 (1896, 1900, 1908, 1912, 1916, 1920, , 1960, 1972, 1980,[h] 1992, 2004, 2012, 2024) 16 (1924, 1928, 1936, 1940, 1944, 1948, , 1992, 1994, 2006, 2014,[h] 2026, 2030) 15 Americas 1904 2034 8 (1904, 1932, 1968, 1976, 1984, 1996, 7 (1932, 1960, 1980, 1988, 2002, 2010, 8 Asia 1964 2022 4 (1940, 1964, 1988, 2008, 2020) 4 (1940, 1972, 1998, 2018, 2022) 3 Oceania 1956 2032 3 (1956, 2000, 2032) 0 Africa – –",
+            "metadata": {
+                "emphasized_text_contents": [
+                    "Total",
+                    "Region",
+                    "First year",
+                    "Last year",
+                    "Summer Olympics",
+                    "Winter Olympics",
+                    "2030",
+                    "2034",
+                    "2032"
+                ],
+                "emphasized_text_tags": [
+                    "b",
+                    "b",
+                    "b",
+                    "b",
+                    "b",
+                    "b",
+                    "i",
+                    "i",
+                    "i"
+                ],
+                "file_directory": "C:\\Users\\gtgag\\AppData\\Local\\Temp",
+                "filename": "tmp74h7eq4p.docx",
+                "page_number": 1,
+                "text_as_html": "<table><tr><td>Total</td><td>Region</td><td>First year</td><td>Last year</td><td>Summer Olympics</td><td>Winter Olympics</td></tr><tr><td>33</td><td>Europe</td><td>1896</td><td>2030</td><td>17 (1896, 1900, 1908, 1912, 1916, 1920, , 1960, 1972, 1980,[h] 1992, 2004, 2012, 2024)</td><td>16 (1924, 1928, 1936, 1940, 1944, 1948, , 1992, 1994, 2006, 2014,[h] 2026, 2030)</td></tr><tr><td>15</td><td>Americas</td><td>1904</td><td>2034</td><td>8 (1904, 1932, 1968, 1976, 1984, 1996,</td><td>7 (1932, 1960, 1980, 1988, 2002, 2010,</td></tr><tr><td>8</td><td>Asia</td><td>1964</td><td>2022</td><td>4 (1940, 1964, 1988, 2008, 2020)</td><td>4 (1940, 1972, 1998, 2018, 2022)</td></tr><tr><td>3</td><td>Oceania</td><td>1956</td><td>2032</td><td>3 (1956, 2000, 2032)</td><td/></tr><tr><td>0</td><td>Africa</td><td>–</td><td>–</td><td/><td/></tr></table>",
+                "languages": [
+                    "eng"
+                ],
+                "filetype": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+                "parent_id": "372c0b8d432690dad3d291b0bb29daf6"
+            },
+            "page_number": 1
+        },
+        {
+            "type": "Title",
+            "text": "See also",
+            "metadata": {
+                "category_depth": 0,
+                "file_directory": "C:\\Users\\gtgag\\AppData\\Local\\Temp",
+                "filename": "tmp74h7eq4p.docx",
+                "page_number": 1,
+                "languages": [
+                    "eng"
+                ],
+                "filetype": "application/vnd.openxmlformats-officedocument.wordprocessingml.document"
+            },
+            "page_number": 1
+        },
+        {
+            "type": "Table",
+            "text": "Cities portal Olympics portal",
+            "metadata": {
+                "file_directory": "C:\\Users\\gtgag\\AppData\\Local\\Temp",
+                "filename": "tmp74h7eq4p.docx",
+                "page_number": 1,
+                "text_as_html": "<table><tr><td>Cities portal Olympics portal</td></tr></table>",
+                "languages": [
+                    "eng"
+                ],
+                "filetype": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+                "parent_id": "ce29da8462be6a34d9dddac23220ccdb"
+            },
+            "page_number": 1
+        },
+        {
+            "type": "Text",
+            "text": "List of bids for the Summer Olympics",
+            "metadata": {
+                "category_depth": 0,
+                "file_directory": "C:\\Users\\gtgag\\AppData\\Local\\Temp",
+                "filename": "tmp74h7eq4p.docx",
+                "link_texts": [
+                    "List of bids for the Summer Olympics"
+                ],
+                "link_urls": [
+                    "https://en.wikipedia.org/wiki/List_of_bids_for_the_Summer_Olympics"
+                ],
+                "links": [
+                    {
+                        "text": "List of bids for the Summer Olympics",
+                        "url": "https://en.wikipedia.org/wiki/List_of_bids_for_the_Summer_Olympics",
+                        "start_index": 0
+                    }
+                ],
+                "page_number": 1,
+                "languages": [
+                    "eng"
+                ],
+                "filetype": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+                "parent_id": "ce29da8462be6a34d9dddac23220ccdb"
+            },
+            "page_number": 1
+        },
+        {
+            "type": "Text",
+            "text": "List of bids for the Winter Olympics",
+            "metadata": {
+                "category_depth": 0,
+                "file_directory": "C:\\Users\\gtgag\\AppData\\Local\\Temp",
+                "filename": "tmp74h7eq4p.docx",
+                "link_texts": [
+                    "List of bids for the Winter Olympics"
+                ],
+                "link_urls": [
+                    "https://en.wikipedia.org/wiki/List_of_bids_for_the_Winter_Olympics"
+                ],
+                "links": [
+                    {
+                        "text": "List of bids for the Winter Olympics",
+                        "url": "https://en.wikipedia.org/wiki/List_of_bids_for_the_Winter_Olympics",
+                        "start_index": 0
+                    }
+                ],
+                "page_number": 1,
+                "languages": [
+                    "eng"
+                ],
+                "filetype": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+                "parent_id": "ce29da8462be6a34d9dddac23220ccdb"
+            },
+            "page_number": 1
+        }
+    ],
+    "processing_info": [
+        {
+            "filename": "test table.docx",
+            "file_type": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+            "status": "success",
+            "error": null,
+            "element_count": 29,
+            "total_text_length": 7184
+        }
+    ],
+    "summary": {
+        "total_elements": 29,
+        "total_text_length": 7184,
+        "element_types": {
+            "Text": 12,
+            "Title": 4,
+            "Table": 7,
+            "NarrativeText": 6
+        },
+        "files_processed": 1,
+        "processing_strategies_used": {
+            "fast": 29
+        },
+        "configuration": {
+            "processing_strategy": "fast",
+            "infer_table_structure": false,
+            "ocr_languages": "eng",
+            "enable_chunking": false,
+            "max_file_size": 10485760
+        }
+    }
+}
