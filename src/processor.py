@@ -195,12 +195,16 @@ class DocumentProcessor:
                 element_type = element["type"]
                 element_types[element_type] = element_types.get(element_type, 0) + 1
                 total_text_length += len(element["text"])
-
+            
+            # Get settings to show processing strategy used
+            settings = get_settings()
             summary = {
                 "total_elements": len(all_elements),
                 "total_text_length": total_text_length,
                 "element_types": element_types,
-                "files_processed": len(files)
+                "files_processed": len(files),
+                "processing_strategy": settings.processing_strategy,
+                "infer_table_structure": settings.infer_table_structure if settings.processing_strategy == "hi_res" else None
             }
             
             logger.info(f"Processed {len(files)} files, total elements: {len(all_elements)}")

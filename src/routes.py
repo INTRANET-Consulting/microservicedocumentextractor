@@ -18,10 +18,23 @@ async def health_check():
     Returns:
         dict: Service health information
     """
+    print("🟢 HEALTH CHECK CALLED - NEW CODE RUNNING!")
+    logger.info("🟢 HEALTH CHECK CALLED - NEW CODE RUNNING!")
     return {
         "status": "healthy",
         "service": "document-content-extractor",
-        "version": "0.1.0"
+        "version": "0.1.0-DEBUG"
+    }
+
+@router.get("/debug-test")
+async def debug_test():
+    """Debug test to verify we're running the updated code"""
+    print("🔍 DEBUG TEST CALLED - NEW CODE IS RUNNING!")
+    logger.info("🔍 DEBUG TEST CALLED - NEW CODE IS RUNNING!")
+    return {
+        "message": "✅ NEW CODE IS RUNNING!",
+        "timestamp": "2024-NEW-VERSION",
+        "test": "success"
     }
 
 @router.post("/process", response_model=ProcessingResponse)
@@ -37,6 +50,12 @@ async def process_documents(
     Returns:
         ProcessingResponse with extracted content and processing info
     """
+    # OBVIOUS DEBUG LOGGING - SHOULD BE VISIBLE IMMEDIATELY
+    print("🚨🚨🚨 PROCESS_DOCUMENTS CALLED - NEW CODE RUNNING! 🚨🚨🚨")
+    logger.info("🚨🚨🚨 PROCESS_DOCUMENTS CALLED - NEW CODE RUNNING! 🚨🚨🚨")
+    print(f"🔍 Processing {len(files)} files: {[f.filename for f in files]}")
+    logger.info(f"🔍 Processing {len(files)} files: {[f.filename for f in files]}")
+    
     try:
         if not files:
             raise HTTPException(
@@ -44,9 +63,20 @@ async def process_documents(
                 detail="No files provided"
             )
         
+        print("🔄 About to call DocumentProcessor.process_files...")
+        logger.info("🔄 About to call DocumentProcessor.process_files...")
+        
         elements_data, processing_info, summary = await DocumentProcessor.process_files(files)
         
+        print(f"🔍 DEBUG: Got {len(elements_data)} elements, {len(processing_info)} files")
+        logger.info(f"🔍 DEBUG: Got {len(elements_data)} elements, {len(processing_info)} files")
+        print(f"🔍 DEBUG: Summary keys: {list(summary.keys()) if isinstance(summary, dict) else 'not dict'}")
+        logger.info(f"🔍 DEBUG: Summary keys: {list(summary.keys()) if isinstance(summary, dict) else 'not dict'}")
+        
         # Convert Dict objects to DocumentElement objects
+        print("🔄 Converting elements to DocumentElement objects...")
+        logger.info("🔄 Converting elements to DocumentElement objects...")
+        
         elements = [
             DocumentElement(
                 type=elem["type"],
@@ -56,6 +86,9 @@ async def process_documents(
             ) for elem in elements_data
         ]
         
+        print(f"✅ Returning ProcessingResponse with {len(elements)} elements")
+        logger.info(f"✅ Returning ProcessingResponse with {len(elements)} elements")
+        
         return ProcessingResponse(
             elements=elements,
             processing_info=processing_info,
@@ -63,12 +96,15 @@ async def process_documents(
         )
         
     except Exception as e:
-        logger.error(f"Error processing documents: {str(e)}")
+        print(f"❌ ERROR in process_documents: {str(e)}")
+        logger.error(f"❌ ERROR in process_documents: {str(e)}")
         raise HTTPException(
             status_code=500,
             detail=f"Error processing documents: {str(e)}"
         )
     finally:
+        print("🧹 Cleaning up files...")
+        logger.info("🧹 Cleaning up files...")
         # Cleanup
         for file in files:
             await file.close()
