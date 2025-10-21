@@ -9,3 +9,4 @@ curl -X POST "http://localhost:8002/process" \
   -H "Content-Type: multipart/form-data" \
   -F "files=@/path/to/document.pdf"
 ```
+uvicorn src.main:app --host 0.0.0.0 --port 8002
